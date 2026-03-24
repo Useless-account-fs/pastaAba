@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"><!--Conexão com css-->
+    <title>TEXTO ABA</title>
+</head>
+<body>
+    <div id="menu">
+        <!--target:"_blank" serve para abrir o link em uma nova aba -->
+        <a href="paginaDois.html" target="_blank" id="linkUm">Texto do Link Interno</a>
+        <a href="https://drive.google.com/file/d/1TfTnzGcIFSvmA72FUODrJWjSm2Y2xSPc/view?usp=drive_link" id="linkUm">Texto do Link Eterno</a>
+        
+    </div>
+
+    <div id="caixaImg">
+        <img id="imgHome" src="img.server.jpg" alt="Legenda da imagem">
+    </div>
+    <div id="caixaLink">
+        <!--onclick: Ativar função no caso o nome da função é testeDois-->
+        <button id="botaoMenu" onclick="testeDois()">Clique aqui</button>
+        
+    </div>
+
+    <!--Conecatando JS-->
+    <script src="main.js"></script>
+</body>
+</html>
